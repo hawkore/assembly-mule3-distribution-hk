@@ -23,6 +23,9 @@
 				<!-- remove grizzly. deadlock bug  -->
 				<exclude>lib/opt/grizzly-*.jar</exclude>
 				<exclude>lib/opt/connection-pool-*.jar</exclude>
+				
+				<!-- remove old spring version  -->
+				<exclude>lib/opt/spring-*.jar</exclude>
 			</excludes>
 		</fileSet>
 
@@ -156,16 +159,41 @@
 
 			</includes>
 		</dependencySet>
-		<!-- Fix grizzly -->
+		
+
 		<dependencySet>
 			<outputDirectory>lib/opt</outputDirectory>
 			<includes>
+				<!-- Fix grizzly -->
 				<include>org.glassfish.grizzly:grizzly-http</include>
 				<include>org.glassfish.grizzly:grizzly-framework</include>
 				<include>org.glassfish.grizzly:grizzly-http-server</include>
 				<include>org.glassfish.grizzly:grizzly-websockets</include>
 				<include>org.glassfish.grizzly:connection-pool</include>
 				<include>org.glassfish.grizzly:grizzly-http-client</include>
+
+				<!-- update Spring dependencies -->
+
+				<include>org.springframework:spring-aop</include>
+				<include>org.springframework:spring-beans</include>
+				<include>org.springframework:spring-context</include>
+				<include>org.springframework:spring-context-support</include>
+				<include>org.springframework:spring-core</include>
+				<include>org.springframework:spring-expression</include>
+				<include>org.springframework:spring-jdbc</include>
+				<include>org.springframework:spring-jms</include>
+				<include>org.springframework:spring-messaging</include>
+				<include>org.springframework:spring-tx</include>
+				<include>org.springframework:spring-web</include>
+				
+				
+				<include>org.springframework.ldap:spring-ldap-core</include>
+				
+				<include>org.springframework.security:spring-security-config</include>
+				<include>org.springframework.security:spring-security-core</include>
+				<include>org.springframework.security:spring-security-ldap</include>
+				<include>org.springframework.security:spring-security-web</include>
+				
 			</includes>
 		</dependencySet>
 	</dependencySets>

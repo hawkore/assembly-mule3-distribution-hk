@@ -53,6 +53,15 @@
 		-->
 		<ignite.version>2.7.0</ignite.version>
         <hawkore.ignite.version>2.7.0-hk</hawkore.ignite.version>
+		
+		<!-- grizzly version -->
+		<grizzlyVersion>2.4.3</grizzlyVersion>
+		<asyncHttpClientVersion>1.14</asyncHttpClientVersion>	
+		
+		<!-- should be the same as used on ignite -->
+		<springVersion>4.3.18.RELEASE</springVersion>
+		<springSecurityLdapVersion>2.3.2.RELEASE</springSecurityLdapVersion>
+		<springSecurityVersion>4.2.7.RELEASE</springSecurityVersion> 	
 				
 		<mule.version>3.9.0</mule.version>
 	
