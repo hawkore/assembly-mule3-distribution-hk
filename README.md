@@ -1,4 +1,6 @@
-# Mule standalone v3.9.0 with Hawkore's cluster module
+# Mule standalone v3.9.0 with Hawkore's cluster core extension
+
+Transparently, turn Mule standalone into a high performance clustered and horizontally scalable system.
 
 ![connector](assets/core-extension.png)
 
