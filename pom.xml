@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.hawkore</groupId>
   <artifactId>hawkore-mule-distribution-parent</artifactId>
-  <version>3.9.1</version>
+  <version>3.9.2</version>
 
   <packaging>pom</packaging>
 
